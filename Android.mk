@@ -4,8 +4,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),dopinder)
+ifeq ($(TARGET_DEVICE),tai)
 
-$(call add-radio-file-sha1-checked,radio/bootloader.img,1c399aac0d436e0d21616c89c6929d05f12eeca7)
+$(call add-radio-file-sha1-checked,radio/bootloader.img,1271be950ab6f8f623feb7aefbd81393aeaa5137)
 
 endif
